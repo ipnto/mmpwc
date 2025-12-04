@@ -1,0 +1,72 @@
+/*reset basico, ni idea a que se refiere pero es para toda la pagina*/
+*{  margin:3;
+padding:0;
+box-sizing:0;
+}
+/*bloque para textos del cuerpo*/
+body{
+ font-family:  Arial, Helvetica, sans-serif;
+ background:#59b56e;
+ color:#5972b5;
+ line-height: 1.8;
+ font-size:18px;
+}
+/*se supone que un boton*/
+.boton-enlace{
+    display:inline-block; /*permite que el boton tenga medidas*/
+    padding:10px 20px;/* relleno interno*/
+    background-color:#7790a6;
+    color:#8686f7;
+    text-decoration:lightcoral;
+}
+.botor-enlace:hover{
+    background-color:#679dab;
+}
+/*bloque para la cabeza o encabezado de la pagina*/
+header{
+    background-color:#b559a0;
+    color:#b59c59;
+    padding: 30px;
+    text-align:center;
+}
+/*ni idea*/
+nav ul{ 
+    list-style:none;
+    display:flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+/*ni perra idea*/
+main{
+    width: 30px;
+    float:center;
+    padding:20px;
+}
+/*no se que pedo*/
+aside{ 
+    width:30px;
+    float:left;
+    background-color:#b59c59;
+    padding: 20px;
+}
+footer{
+    clear:both;
+    background-color:#b559a0;
+    color:#2f4f4f;
+    text-align: center;
+    padding:15px;
+    margin-top:20px
+}
+/*titulos importantes (se usa para "diferenciar" o "resaltar" con caracteristicas especiales una parte del contenido de la pagina)*/
+div{
+    display:center;
+    justify-content:center;
+    align-items:flex;
+    color:lightcyan;
+    font-size:28px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:#bf4012
+}
